@@ -1,0 +1,96 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "6ac38951-8469-4f72-9c73-cc85958b68c1",
+  "Name": "ExpenseRequestAccountantApprovalAssignmentExpenses",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "ExpenseReques1",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "a18cad52-7dc4-4c07-901e-c3e7bac99e0d",
+      "Name": "ExpenseRequestAccountantApprovalAssignment",
+      "CanBeSearch": false,
+      "Code": "Assignment",
+      "EntityGuid": "4dfbc4b8-238d-4036-9c2c-634f70fb3607",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "cf94ef34-f9c6-41bc-99a8-8fcdaf0bfb76",
+      "Name": "ExpenseType",
+      "CanBeSearch": false,
+      "Code": "ExpenseType",
+      "EntityGuid": "5cf1c896-96db-45d2-995d-89eea10efeeb",
+      "FlatListInStandaloneLookup": true,
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "a18cad52-7dc4-4c07-901e-c3e7bac99e0d"
+    },
+    {
+      "$type": "Sungero.Metadata.DoublePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "fdef60bd-e90b-412d-8c3d-3b05093d863b",
+      "Name": "ExpenseSum",
+      "CanBeSearch": false,
+      "Code": "ExpenseSum",
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "cf94ef34-f9c6-41bc-99a8-8fcdaf0bfb76"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "920ee18d-89be-4957-8410-ed1af1531702",
+      "Name": "ExpenseDescription",
+      "CanBeSearch": false,
+      "Code": "ExpenseDescrip",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "fdef60bd-e90b-412d-8c3d-3b05093d863b"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "b6222f4c-f91f-46ee-94d7-b7ad787ca973",
+      "Name": "LimitSetting",
+      "CanBeSearch": false,
+      "Code": "LimitSetting",
+      "EntityGuid": "150c4a95-7fe6-45db-9ba1-10ea61aedd65",
+      "FlatListInStandaloneLookup": true,
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "920ee18d-89be-4957-8410-ed1af1531702"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "0b6741ce-1718-4c41-a036-5ba385d3adb3",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "945b48da-cbdd-440d-879a-b39c8c02b713",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 11
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 2
+    }
+  ]
+}

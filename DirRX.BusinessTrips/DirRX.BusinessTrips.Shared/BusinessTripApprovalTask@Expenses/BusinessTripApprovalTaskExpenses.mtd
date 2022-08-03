@@ -1,0 +1,118 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "f5b8d086-da59-47c5-a326-1ac14e4c05e1",
+  "Name": "BusinessTripApprovalTaskExpenses",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "BusinessTripAp",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "4c92cb52-a3d2-4b78-baa7-21f6d55ed06a",
+      "Name": "BusinessTripApprovalTask",
+      "CanBeSearch": false,
+      "Code": "Task",
+      "EntityGuid": "377fe917-7bf5-4b5a-871e-c1668d61aa24",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.DoublePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "6b983f37-4a78-46d4-abd4-00f7c384c3de",
+      "Name": "ExpenseSum",
+      "CanBeSearch": false,
+      "Code": "ExpenseSum",
+      "HandledEvents": [
+        "ChangedShared",
+        "ValueInputClient"
+      ],
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "4c92cb52-a3d2-4b78-baa7-21f6d55ed06a",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "4b261a00-b837-48f1-a7c5-4c58546ffe88",
+      "Name": "ExpenseType",
+      "CanBeSearch": false,
+      "Code": "ExpenseType",
+      "EntityGuid": "5cf1c896-96db-45d2-995d-89eea10efeeb",
+      "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "6b983f37-4a78-46d4-abd4-00f7c384c3de",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "73ea57d8-dae7-45a4-853c-9e4a08554eea",
+      "Name": "ExpenseDescription",
+      "CanBeSearch": false,
+      "Code": "ExpenseDescrip",
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "4b261a00-b837-48f1-a7c5-4c58546ffe88",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "988fda64-6fb7-4754-8f05-495f54ae24e3",
+      "Name": "LimitSetting",
+      "CanBeSearch": false,
+      "Code": "LimitSetting",
+      "EntityGuid": "150c4a95-7fe6-45db-9ba1-10ea61aedd65",
+      "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "ChangedShared"
+      ],
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "b53c8771-3f56-4cac-a124-6c68f8dd10e2"
+    },
+    {
+      "$type": "Sungero.Metadata.DoublePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "eb2ec26c-c20c-400c-82be-6043f06d95eb",
+      "Name": "Limit",
+      "CanBeSearch": false,
+      "Code": "Limit",
+      "IsEnabled": false,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "988fda64-6fb7-4754-8f05-495f54ae24e3"
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "249deaea-f6fd-49eb-8c06-ba73608e3112",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "920f34d8-1032-4fdc-9d5b-1cb1aabe85d4",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 11
+    }
+  ]
+}

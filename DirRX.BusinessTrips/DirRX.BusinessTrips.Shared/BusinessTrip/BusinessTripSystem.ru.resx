@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Property_DepartureDate" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="Action_SearchFoldersContainsLinkToEntityDescription" xml:space="preserve">
+    <value>Поиск папок, в которые вложена ссылка на запись.</value>
+  </data>
+  <data name="Ribbon_Links_5465578aaa71481c9b71bae827a7acd6" xml:space="preserve">
+    <value>Ссылки</value>
+  </data>
+  <data name="Property_ExpenseReportApprovalTaskId" xml:space="preserve">
+    <value>ИД задачи на согласование авансового отчета</value>
+  </data>
+  <data name="FilterPanel_Period_5c16d09409ab4d5e90330b559f18f8d0" xml:space="preserve">
+    <value>Период командировки</value>
+  </data>
+  <data name="Property_Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Action_GetDocuments" xml:space="preserve">
+    <value>Связанные документы</value>
+  </data>
+  <data name="Action_GetDocumentsHint" xml:space="preserve">
+    <value>Показать документы по командировке</value>
+  </data>
+  <data name="Action_CancelTripDescription" xml:space="preserve">
+    <value>Отмена командировки и прекращение задачи.</value>
+  </data>
+  <data name="Action_CancelTripHint" xml:space="preserve">
+    <value>Отменить командировку</value>
+  </data>
+  <data name="Action_CancelTrip" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="Action_ChangeTripDescription" xml:space="preserve">
+    <value>Изменение параметров командировки. Задача будет отправлена на доработку.</value>
+  </data>
+  <data name="Action_ChangeTripHint" xml:space="preserve">
+    <value>Отправить задачу на доработку с целью изменения параметров</value>
+  </data>
+  <data name="Action_ChangeTrip" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="Action_RecallTripDescription" xml:space="preserve">
+    <value>Отзыв сотрудника из командировки.</value>
+  </data>
+  <data name="Action_RecallTripHint" xml:space="preserve">
+    <value>Отозвать сотрудника из командировки</value>
+  </data>
+  <data name="Action_RecallTrip" xml:space="preserve">
+    <value>Отозвать</value>
+  </data>
+  <data name="Action_ChangeTripConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ChangeTripConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_Status" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="Enum_BusinessTripStatus_Started" xml:space="preserve">
+    <value>Оформление</value>
+  </data>
+  <data name="Enum_BusinessTripStatus_OnApproval" xml:space="preserve">
+    <value>Согласование</value>
+  </data>
+  <data name="Enum_BusinessTripStatus_OrderPendingSign" xml:space="preserve">
+    <value>Подписание приказа</value>
+  </data>
+  <data name="Enum_BusinessTripStatus_OrderSigned" xml:space="preserve">
+    <value>Приказ подписан</value>
+  </data>
+  <data name="Enum_BusinessTripStatus_PrepareReport" xml:space="preserve">
+    <value>Подготовка отчета</value>
+  </data>
+  <data name="Enum_BusinessTripStatus_Finished" xml:space="preserve">
+    <value>Завершена</value>
+  </data>
+  <data name="Property_NeedTicketAndHotel" xml:space="preserve">
+    <value>Запрошена покупка билетов и проживания</value>
+  </data>
+  <data name="Enum_BusinessTripStatus_Canceled" xml:space="preserve">
+    <value>Отменена</value>
+  </data>
+  <data name="Action_GetTasks" xml:space="preserve">
+    <value>Связанные задачи</value>
+  </data>
+  <data name="Action_GetTasksHint" xml:space="preserve">
+    <value>Показать задачи по командировке</value>
+  </data>
+  <data name="Action_GetTasksDescription" xml:space="preserve">
+    <value>Поиск задач, относящихся к командировке.</value>
+  </data>
+  <data name="Action_GetDocumentsDescription" xml:space="preserve">
+    <value>Поиск документов, относящихся к командировке.</value>
+  </data>
+  <data name="Enum_Status_Closed" xml:space="preserve">
+    <value>Закрытая</value>
+  </data>
+  <data name="Property_Expenses" xml:space="preserve">
+    <value>Расходы</value>
+  </data>
+  <data name="Form_5b1e1a0e84774a028e8666d5bfb62337" xml:space="preserve">
+    <value>Маршрут</value>
+  </data>
+  <data name="Form_146453520eca443e99942c685c3b5195" xml:space="preserve">
+    <value>Расходы</value>
+  </data>
+  <data name="Property_ReturnDate" xml:space="preserve">
+    <value>Дата окончания</value>
+  </data>
+  <data name="ControlGroup_f2d04425ef304e0294ed9c7ab50bb9c8" xml:space="preserve">
+    <value>Данные о личном автомобиле</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Командировка</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Командировку</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Командировки</value>
+  </data>
+  <data name="Property_Employee" xml:space="preserve">
+    <value>Сотрудник</value>
+  </data>
+  <data name="Property_Purpose" xml:space="preserve">
+    <value>Цель командировки</value>
+  </data>
+  <data name="Property_ExpensesSum" xml:space="preserve">
+    <value>Сумма расходов</value>
+  </data>
+  <data name="Property_FinanceSource" xml:space="preserve">
+    <value>Источник финансирования</value>
+  </data>
+  <data name="Property_ByCar" xml:space="preserve">
+    <value>Поездка на личном автомобиле</value>
+  </data>
+  <data name="Property_CarModel" xml:space="preserve">
+    <value>Марка автомобиля</value>
+  </data>
+  <data name="Property_CarNumber" xml:space="preserve">
+    <value>Регистрационный номер</value>
+  </data>
+  <data name="Property_BusinessUnit" xml:space="preserve">
+    <value>Наша организация</value>
+  </data>
+  <data name="Property_Department" xml:space="preserve">
+    <value>Подразделение</value>
+  </data>
+  <data name="Property_ExpenseReportNoticeId" xml:space="preserve">
+    <value>ИД уведомления об авансовом отчете</value>
+  </data>
+  <data name="Property_ExpenseReport" xml:space="preserve">
+    <value>Авансовый отчет</value>
+  </data>
+  <data name="Property_FactDepartureDate" xml:space="preserve">
+    <value>Факт. дата отъезда</value>
+  </data>
+  <data name="Property_FactReturnDate" xml:space="preserve">
+    <value>Факт. дата возвращения</value>
+  </data>
+  <data name="Property_BusinessTripStatus" xml:space="preserve">
+    <value>Состояние командировки</value>
+  </data>
+  <data name="FilterPanel_CurrentWeek_0e92a1e659984bddb3b51c6adb234e9e" xml:space="preserve">
+    <value>За неделю</value>
+  </data>
+  <data name="FilterPanel_CurrentMonth_7b86bef559704547960971ed40c03d01" xml:space="preserve">
+    <value>За месяц</value>
+  </data>
+  <data name="FilterPanel_CurrentQuarter_80211599079b4f588b7abf9021fdbcb6" xml:space="preserve">
+    <value>За квартал</value>
+  </data>
+  <data name="FilterPanel_CurrentYear_da68ad791e8b4509a3e1143d00d88640" xml:space="preserve">
+    <value>За год</value>
+  </data>
+  <data name="FilterPanel_ShowPeriod_013db964da8d496bba3d2f3dbf03cc36" xml:space="preserve">
+    <value>Произвольный период</value>
+  </data>
+  <data name="Property_Route" xml:space="preserve">
+    <value>Маршрут</value>
+  </data>
+</root>

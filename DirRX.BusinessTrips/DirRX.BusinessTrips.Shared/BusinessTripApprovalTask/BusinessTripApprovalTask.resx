@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TripDatesErrorText" xml:space="preserve">
+    <value>The end date must be greater than or equal to the beginning date.</value>
+  </data>
+  <data name="TaskSubjectTemplate" xml:space="preserve">
+    <value>Approve business trip: {0}</value>
+  </data>
+  <data name="TaskThemeBase" xml:space="preserve">
+    <value>&lt;Task subject will be modified automatically&gt;</value>
+  </data>
+  <data name="TaskTextTemplate" xml:space="preserve">
+    <value>Employee: {0}
+Purpose of the business trip: {1}</value>
+  </data>
+  <data name="ReWorkAssignmentSubjectTemplate" xml:space="preserve">
+    <value>Change parameters of business trip {0}–{1}. Purpose: {2}</value>
+  </data>
+  <data name="SignOrderSubjectTemplate" xml:space="preserve">
+    <value>Sign business trip order: {0}</value>
+  </data>
+  <data name="ApprovalAssignmentSubjectTemplate" xml:space="preserve">
+    <value>Approve parameters of business trip: {0}</value>
+  </data>
+  <data name="TransferMoneySubjectTemplate" xml:space="preserve">
+    <value>Transfer money for business trip: {0}</value>
+  </data>
+  <data name="TransferMoneyNoticeSubjectTemplate" xml:space="preserve">
+    <value>Transferred money for business trip {0}–{1}. Purpose: {2}</value>
+  </data>
+  <data name="ProcessDocumentsSubjectTemplate" xml:space="preserve">
+    <value>Read and sign business trip order: {0}</value>
+  </data>
+  <data name="TiketsNoticeSubjectTemplate" xml:space="preserve">
+    <value>Purchased tickets for business trip {0}–{1}. Purpose: {2}</value>
+  </data>
+  <data name="BuyTiketsSubjectTemplate" xml:space="preserve">
+    <value>Purchase tickets for business trip: {0}</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="ByCarTextTemplate" xml:space="preserve">
+    <value>{0}
+
+Memo on using private car for the business trip generated.
+Car model: {1}
+Can number: {2}</value>
+  </data>
+  <data name="ByCarMemoInfo" xml:space="preserve">
+    <value>After you send the task, the memo on using private car for the business trip will be generated.</value>
+  </data>
+  <data name="ProcessDocumentsWithMemoSubjectTemplate" xml:space="preserve">
+    <value>Read and sign business trip order and memo: {0}</value>
+  </data>
+  <data name="ExpenseReportPurpose" xml:space="preserve">
+    <value>Expenses for business trip</value>
+  </data>
+  <data name="CancelConfirmation" xml:space="preserve">
+    <value>Cancel Business Trip</value>
+  </data>
+  <data name="EmptyCancelReason" xml:space="preserve">
+    <value>Specify the reason for the business trip cancellation.</value>
+  </data>
+  <data name="TripCancelSuccessfully" xml:space="preserve">
+    <value>Task to cancel the business trip sent.</value>
+  </data>
+  <data name="ProcessChangeDocumentsSubjectTemplate" xml:space="preserve">
+    <value>Read and sign business trip order and business trip change order: {0}</value>
+  </data>
+  <data name="ProcessChangeDocumentsWithMemoSubjectTemplate" xml:space="preserve">
+    <value>Read and sign business trip order, business trip change order, and memo: {0}</value>
+  </data>
+  <data name="ChangeTransferMoneySubjectTemplate" xml:space="preserve">
+    <value>Transfer extra money for business trip: {0}</value>
+  </data>
+  <data name="ChangeBuyTiketsSubjectTemplate" xml:space="preserve">
+    <value>Change tickets for business trip {0} after its parameters are changed</value>
+  </data>
+  <data name="SignChangeOrderSubjectTemplate" xml:space="preserve">
+    <value>Sign business trip change order: {0}</value>
+  </data>
+  <data name="TripChangelTooLate" xml:space="preserve">
+    <value>You can change the business trip only before it ends.</value>
+  </data>
+  <data name="TripChangeNoProcessOwner" xml:space="preserve">
+    <value>Only the initiator of the business trip can change its parameters.</value>
+  </data>
+  <data name="TripChangeAlreadyStarted" xml:space="preserve">
+    <value>Business trip change already initiated.</value>
+  </data>
+  <data name="PrepareExpenseReportSubjectTemplate" xml:space="preserve">
+    <value>Prepare expense report No.{0} of {1} for {2}</value>
+  </data>
+  <data name="ChangeConfirmation" xml:space="preserve">
+    <value>Change Business Trip</value>
+  </data>
+  <data name="EmptyChangeReason" xml:space="preserve">
+    <value>Specify the reason for the business trip change.</value>
+  </data>
+  <data name="TripChangeSuccessfully" xml:space="preserve">
+    <value>The business trip successfully sent for rework.</value>
+  </data>
+  <data name="ChangeApprovalAssignmentSubjectTemplate" xml:space="preserve">
+    <value>Approve changes in parameters of business trip: {0}</value>
+  </data>
+  <data name="ChangeReasonToTextTemplate" xml:space="preserve">
+    <value>{0}
+
+The business trip is changed. Reason: {1}</value>
+  </data>
+  <data name="TripCancelEmployeeOrManagerCanDo" xml:space="preserve">
+    <value>Only the initiator of the business trip or the department manager can cancel the business trip.</value>
+  </data>
+  <data name="TripCancelAlredyInitialized" xml:space="preserve">
+    <value>Business trip cancellation already initiated.</value>
+  </data>
+  <data name="TripCancelTooLate" xml:space="preserve">
+    <value>You can cancel the business trip only before it ends.</value>
+  </data>
+  <data name="RouteDateInMoreThenDateOutError" xml:space="preserve">
+    <value>The date of arrival cannot be greater than the date of departure.</value>
+  </data>
+  <data name="TripDepartureDateTooLateError" xml:space="preserve">
+    <value>The trip beginning date must be less than or equal to the date of arrival to the destination.</value>
+  </data>
+  <data name="TripReturnDateTooEarlyError" xml:space="preserve">
+    <value>The trip end date must be greater than or equal to the date of departure from the destination.</value>
+  </data>
+  <data name="SubzeroError" xml:space="preserve">
+    <value>The value must be positive.</value>
+  </data>
+  <data name="HowToFillExpenseReportNotificationText" xml:space="preserve">
+    <value>Send supporting documents to {0} via your work email. Your expense report will be completed automatically.
+You can send photos, scanned copies, or electronic versions of the documents. 
+If you have hard copies, keep them and submit to the accountant upon arrival.</value>
+  </data>
+  <data name="ExpenseReportNoticeJobNoticeSubject" xml:space="preserve">
+    <value>You can complete expense report on your business trip {0}–{1}. Purpose: {2}</value>
+  </data>
+  <data name="AddPerDiemErrorTextNoTripDates" xml:space="preserve">
+    <value>Specify the dates of the business trip.</value>
+  </data>
+  <data name="AddPerDiemErrorTextNoRoute" xml:space="preserve">
+    <value>Specify the route of the business trip.</value>
+  </data>
+  <data name="AddPerDiemErrorTextNoRouteProperties" xml:space="preserve">
+    <value>Specify the required properties of the business trip route.</value>
+  </data>
+  <data name="AddPerDiemInfoNoSettings" xml:space="preserve">
+    <value>Cannot find relevant limit settings for some of the specified cities or expense types.</value>
+  </data>
+  <data name="AddPerDiemInfoNotForOneDayTrip" xml:space="preserve">
+    <value>Daily allowance is not paid and accommodation expenses are not covered for one-day trips.</value>
+  </data>
+</root>

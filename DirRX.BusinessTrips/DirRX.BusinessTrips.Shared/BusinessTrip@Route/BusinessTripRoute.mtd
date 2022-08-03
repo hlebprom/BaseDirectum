@@ -1,0 +1,124 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "a9dd09af-6230-4284-a7e6-389bf28796f4",
+  "Name": "BusinessTripRoute",
+  "AccessRightsMode": "NoRight",
+  "BaseGuid": "a3d38bf5-0414-41f6-bb33-a4621d2e5a60",
+  "CanBeNavigationPropertyType": true,
+  "Code": "BusinessTripRo",
+  "ExtraSearchProperties": [],
+  "IsChildEntity": true,
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "d6db1435-3049-4d0e-9aa2-4d1d477fe652",
+      "Name": "BusinessTrip",
+      "CanBeSearch": false,
+      "Code": "BusinessTrip",
+      "EntityGuid": "74bd6fe0-0d62-4564-880e-e2b4815a54c9",
+      "IsReferenceToRootEntity": true,
+      "IsShowedInList": false
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "ebeb67aa-3b23-44a2-b3b9-0b65b3eaabc2",
+      "Name": "Org",
+      "CanBeSearch": false,
+      "Code": "Org",
+      "EntityGuid": "593e143c-616c-4d95-9457-fd916c4aa7f8",
+      "FlatListInStandaloneLookup": true,
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "d6db1435-3049-4d0e-9aa2-4d1d477fe652"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "912b04f7-94cf-4686-847e-63917a403310",
+      "Name": "Destination",
+      "CanBeSearch": false,
+      "Code": "Destination",
+      "EntityGuid": "3a0c21f8-aa88-429c-891f-56c24d56fcef",
+      "FlatListInStandaloneLookup": true,
+      "IsEnabled": false,
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "ebeb67aa-3b23-44a2-b3b9-0b65b3eaabc2"
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "c70b74f6-a47f-4670-a90e-e3f6fed1f0dd",
+      "Name": "DateIn",
+      "CanBeSearch": false,
+      "Code": "DateIn",
+      "IsEnabled": false,
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "912b04f7-94cf-4686-847e-63917a403310",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "21aab7f1-c8be-43bd-ae76-450fa8798c11",
+      "Name": "DateOut",
+      "CanBeSearch": false,
+      "Code": "DateOut",
+      "IsEnabled": false,
+      "IsRequired": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "c70b74f6-a47f-4670-a90e-e3f6fed1f0dd",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "b9764137-649f-4c41-800f-ffaa531bbc4f",
+      "Name": "FactDateIn",
+      "CanBeSearch": false,
+      "Code": "FactDateIn",
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "21aab7f1-c8be-43bd-ae76-450fa8798c11",
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.DateTimePropertyMetadata, Sungero.Metadata",
+      "NameGuid": "c5ee5079-1a23-46a8-a495-105225854bb7",
+      "Name": "FactDateOut",
+      "CanBeSearch": false,
+      "Code": "FactDateOut",
+      "IsEnabled": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
+      "PreviousPropertyGuid": "b9764137-649f-4c41-800f-ffaa531bbc4f",
+      "Versions": []
+    }
+  ],
+  "PublicStructures": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "73c21196-af0d-4243-9a0f-e71d36f7bce4",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "afaa9b19-e0b6-4efb-af58-a7f110bfe1e8",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 11
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 2
+    }
+  ]
+}

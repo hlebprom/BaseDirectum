@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <ViewName>Default</ViewName>
+  <Collection FormGuid="cddd4c25-da1e-45d4-ab4b-0250a22ce940">
+    <XtraSerializer version="1.0" application="GridControl">
+      <property name="#LayoutVersion" isnull="true" />
+      <property name="$GridControl" iskey="true" value="GridControl">
+        <property name="GroupSummary" iskey="true" value="0" />
+        <property name="View" isnull="true" iskey="true">
+          <property name="ShowTotalSummary">false</property>
+          <property name="ColumnChooserState" isnull="true" iskey="true">
+            <property name="Location">1100,328.769230769231</property>
+            <property name="Size">220,250</property>
+          </property>
+          <property name="AutoWidth">true</property>
+          <property name="ShowGroupPanel">false</property>
+          <property name="LinesPerRowMode">OneLineMode</property>
+          <property name="WaitIndicatorType">Panel</property>
+          <property name="IsRowCellMenuEnabled">true</property>
+        </property>
+        <property name="TotalSummary" iskey="true" value="0" />
+        <property name="GroupCount">0</property>
+        <property name="Columns" iskey="true" value="29">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="MinWidth">32</property>
+            <property name="FieldName">T</property>
+            <property name="FixedWidth">true</property>
+            <property name="Visible">true</property>
+            <property name="ExtendedVisibleIndex">10</property>
+            <property name="VisibleIndex">0</property>
+            <property name="Width">32</property>
+            <property name="ActualWidth">4*</property>
+          </property>
+          <property name="Item2" isnull="true" iskey="true">
+            <property name="FieldName">Id</property>
+            <property name="AutoFilterCondition">Equals</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_Id</property>
+            <property name="ExtendedVisibleIndex">11</property>
+            <property name="VisibleIndex">0</property>
+            <property name="ActualWidth">4*</property>
+          </property>
+          <property name="Item3" isnull="true" iskey="true">
+            <property name="FieldName">Author.DisplayValue</property>
+            <property name="AutoFilterCondition">Contains</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_Author</property>
+            <property name="ExtendedVisibleIndex">18</property>
+            <property name="VisibleIndex">6</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item4" isnull="true" iskey="true">
+            <property name="FieldName">StartedBy.DisplayValue</property>
+            <property name="AutoFilterCondition">Contains</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_StartedBy</property>
+            <property name="ExtendedVisibleIndex">27</property>
+            <property name="VisibleIndex">13</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item5" isnull="true" iskey="true">
+            <property name="FieldName">Status</property>
+            <property name="AutoFilterCondition">Contains</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_Status</property>
+            <property name="ExtendedVisibleIndex">23</property>
+            <property name="VisibleIndex">8</property>
+            <property name="ActualWidth">10*</property>
+          </property>
+          <property name="Item6" isnull="true" iskey="true">
+            <property name="FieldName">Importance</property>
+            <property name="AutoFilterCondition">Contains</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTripApprovalTask_Importance</property>
+            <property name="ExtendedVisibleIndex">12</property>
+            <property name="VisibleIndex">1</property>
+            <property name="ActualWidth">3*</property>
+          </property>
+          <property name="Item7" isnull="true" iskey="true">
+            <property name="FieldName">Created</property>
+            <property name="AutoFilterCondition">Equals</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTripApprovalTask_Created</property>
+            <property name="ExtendedVisibleIndex">19</property>
+            <property name="VisibleIndex">6</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item8" isnull="true" iskey="true">
+            <property name="FieldName">Modified</property>
+            <property name="AutoFilterCondition">Equals</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_Modified</property>
+            <property name="ExtendedVisibleIndex">21</property>
+            <property name="VisibleIndex">6</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item9" isnull="true" iskey="true">
+            <property name="FieldName">Started</property>
+            <property name="AutoFilterCondition">Equals</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_Started</property>
+            <property name="ExtendedVisibleIndex">22</property>
+            <property name="VisibleIndex">7</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item10" isnull="true" iskey="true">
+            <property name="FieldName">MaxDeadline</property>
+            <property name="AutoFilterCondition">Equals</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_MaxDeadline</property>
+            <property name="ExtendedVisibleIndex">20</property>
+            <property name="VisibleIndex">4</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item11" isnull="true" iskey="true">
+            <property name="FieldName">NeedsReview</property>
+            <property name="AutoFilterCondition">Equals</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_NeedsReview</property>
+            <property name="ExtendedVisibleIndex">24</property>
+            <property name="VisibleIndex">9</property>
+            <property name="ActualWidth">10*</property>
+          </property>
+          <property name="Item12" isnull="true" iskey="true">
+            <property name="FieldName">ParentTask.DisplayValue</property>
+            <property name="AutoFilterCondition">Contains</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_ParentTask</property>
+            <property name="ExtendedVisibleIndex">25</property>
+            <property name="VisibleIndex">11</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item13" isnull="true" iskey="true">
+            <property name="FieldName">ParentAssignment.DisplayValue</property>
+            <property name="AutoFilterCondition">Contains</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_ParentAssignment</property>
+            <property name="ExtendedVisibleIndex">26</property>
+            <property name="VisibleIndex">12</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item14" isnull="true" iskey="true">
+            <property name="FieldName">MainTask.DisplayValue</property>
+            <property name="AutoFilterCondition">Contains</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_MainTask</property>
+            <property name="ExtendedVisibleIndex">28</property>
+            <property name="VisibleIndex">14</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item15" isnull="true" iskey="true">
+            <property name="FieldName">Subject</property>
+            <property name="AutoFilterCondition">Contains</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_Subject</property>
+            <property name="ExtendedVisibleIndex">17</property>
+            <property name="VisibleIndex">6</property>
+            <property name="ActualWidth">44*</property>
+          </property>
+          <property name="Item16" isnull="true" iskey="true">
+            <property name="FieldName">Purpose</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTripApprovalTask_Purpose</property>
+            <property name="ExtendedVisibleIndex">16</property>
+            <property name="VisibleIndex">5</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item17" isnull="true" iskey="true">
+            <property name="FieldName">DepartureDate</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTripApprovalTask_DepartureDate</property>
+            <property name="ExtendedVisibleIndex">14</property>
+            <property name="VisibleIndex">3</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item18" isnull="true" iskey="true">
+            <property name="FieldName">ReturnDate</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTripApprovalTask_ReturnDate</property>
+            <property name="ExtendedVisibleIndex">15</property>
+            <property name="VisibleIndex">4</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item19" isnull="true" iskey="true">
+            <property name="FieldName">ExpensesSum</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_ExpensesSum</property>
+            <property name="ExtendedVisibleIndex">0</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item20" isnull="true" iskey="true">
+            <property name="FieldName">FinanceSource</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_FinanceSource</property>
+            <property name="ExtendedVisibleIndex">1</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item21" isnull="true" iskey="true">
+            <property name="FieldName">ByCar</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_ByCar</property>
+            <property name="ExtendedVisibleIndex">2</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item22" isnull="true" iskey="true">
+            <property name="FieldName">NeedTicketAndHotel</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_NeedTicketAndHotel</property>
+            <property name="ExtendedVisibleIndex">3</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item23" isnull="true" iskey="true">
+            <property name="FieldName">CarModel</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_CarModel</property>
+            <property name="ExtendedVisibleIndex">4</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item24" isnull="true" iskey="true">
+            <property name="FieldName">CarNumber</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_CarNumber</property>
+            <property name="ExtendedVisibleIndex">5</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item25" isnull="true" iskey="true">
+            <property name="FieldName">Employee.DisplayValue</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTripApprovalTask_Employee</property>
+            <property name="ExtendedVisibleIndex">13</property>
+            <property name="VisibleIndex">2</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item26" isnull="true" iskey="true">
+            <property name="FieldName">CommonSubjectPart</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_CommonSubjectPart</property>
+            <property name="ExtendedVisibleIndex">6</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item27" isnull="true" iskey="true">
+            <property name="FieldName">MoneyTransferred</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_MoneyTransferred</property>
+            <property name="ExtendedVisibleIndex">7</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item28" isnull="true" iskey="true">
+            <property name="FieldName">AbortingReason</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_AbortingReason</property>
+            <property name="ExtendedVisibleIndex">8</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+          <property name="Item29" isnull="true" iskey="true">
+            <property name="FieldName">StartTaskText</property>
+            <property name="Visible">false</property>
+            <property name="Name">BusinessTripApprovalTask_StartTaskText</property>
+            <property name="ExtendedVisibleIndex">9</property>
+            <property name="ActualWidth">NaN</property>
+          </property>
+        </property>
+        <property name="SortInfo" iskey="true" value="1">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="FieldName">Created</property>
+            <property name="SortOrder">Descending</property>
+          </property>
+        </property>
+        <property name="GroupSummarySortInfo" iskey="true" value="0" />
+      </property>
+    </XtraSerializer>
+  </Collection>
+</settings>

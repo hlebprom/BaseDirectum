@@ -1,0 +1,566 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "461a779a-60e7-4aa7-a639-4abc2e9aecdd",
+  "Name": "BusinessTrips",
+  "AsyncHandlers": [
+    {
+      "NameGuid": "51c80539-bffd-4e7e-b5ff-c240bcc7d397",
+      "Name": "ChangeBusinessTrip",
+      "DelayPeriod": 15,
+      "DelayStrategy": "ExponentialDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "344cc332-c91d-4ca3-9ea2-34f30238d765",
+          "Name": "TaskID",
+          "ParameterType": "Integer"
+        }
+      ]
+    }
+  ],
+  "ClientAssemblyName": "DirRX.BusinessTrips.Client",
+  "ClientBaseAssemblyName": "DirRX.BusinessTrips.ClientBase",
+  "ClientBaseNamespace": "DirRX.BusinessTrips.ClientBase",
+  "ClientNamespace": "DirRX.BusinessTrips.Client",
+  "Code": "Busines",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "eacaf137-908e-46ad-af88-7b6d1393d603",
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "1a6428a7-25fe-4c0b-8b87-1f03ba1fb088",
+        "Name": "ShowMyBusinessTrips",
+        "FunctionName": "ShowMyBusinessTrips",
+        "GroupId": "9441a25c-1ed5-4e8c-9afe-36506b1a0dc6",
+        "PreviousItemGuid": "a5a6ae9d-f236-4380-b270-bc27687f7ca6"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "56ee7f4f-b94b-4b0a-8090-72af889ad418",
+        "Name": "CreateBusinessTrip",
+        "FunctionName": "CreateNewBusinessTripApprovalTask",
+        "GroupId": "9441a25c-1ed5-4e8c-9afe-36506b1a0dc6"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "712b8f38-69e6-462a-9566-050072a33906",
+        "Name": "ModuleSettings",
+        "FunctionName": "SelectModuleSettings",
+        "GroupId": "d3dfdaf0-b1df-4c20-b265-6640ebeceb5a"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "8246a810-1104-4f77-bde6-47937b3f70f1",
+        "Name": "Orders",
+        "EntityTypeId": "1f36d0f9-ea41-4ac2-ab27-14d1e24ffb9c",
+        "GroupId": "218d8654-1183-475d-960e-386002b51edb"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "8b36f6fa-075c-435d-8e81-c8f2eca5a2e2",
+        "Name": "ShowMyPastBusinessTrips",
+        "FunctionName": "ShowMyPastBusinessTrips",
+        "GroupId": "9441a25c-1ed5-4e8c-9afe-36506b1a0dc6",
+        "PreviousItemGuid": "9878cdd2-3f9e-48ac-94d3-86de266cac49"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "90a48223-131d-4f19-9c5b-044180d90066",
+        "Name": "Memos",
+        "EntityTypeId": "44316968-fe3b-4ab6-adc3-19282e50786c",
+        "GroupId": "218d8654-1183-475d-960e-386002b51edb",
+        "PreviousItemGuid": "8246a810-1104-4f77-bde6-47937b3f70f1"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "9878cdd2-3f9e-48ac-94d3-86de266cac49",
+        "Name": "ShowMyFutureBusinessTrips",
+        "FunctionName": "ShowMyFutureBusinessTrips",
+        "GroupId": "9441a25c-1ed5-4e8c-9afe-36506b1a0dc6",
+        "PreviousItemGuid": "1a6428a7-25fe-4c0b-8b87-1f03ba1fb088"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "a5a6ae9d-f236-4380-b270-bc27687f7ca6",
+        "Name": "ShowAllBusinessTrips",
+        "EntityTypeId": "74bd6fe0-0d62-4564-880e-e2b4815a54c9",
+        "GroupId": "9441a25c-1ed5-4e8c-9afe-36506b1a0dc6",
+        "PreviousItemGuid": "56ee7f4f-b94b-4b0a-8090-72af889ad418"
+      }
+    ],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "89294f6f-af9d-439f-b69f-a797bab4e8bc",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [
+      {
+        "NameGuid": "9441a25c-1ed5-4e8c-9afe-36506b1a0dc6",
+        "Name": "BusinessTrip",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconBusinessTrip_9441a25c1ed54e8c9afe36506b1a0dc6.png"
+      },
+      {
+        "NameGuid": "218d8654-1183-475d-960e-386002b51edb",
+        "Name": "OtherDocs",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconOtherDocs_218d86541183475d960e386002b51edb.png",
+        "PreviousItemGuid": "9441a25c-1ed5-4e8c-9afe-36506b1a0dc6"
+      },
+      {
+        "NameGuid": "d3dfdaf0-b1df-4c20-b265-6640ebeceb5a",
+        "Name": "Setting",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconSetting_d3dfdaf0b1df4c20b2656640ebeceb5a.png",
+        "PreviousItemGuid": "218d8654-1183-475d-960e-386002b51edb"
+      }
+    ],
+    "Header": {
+      "NameGuid": "df050353-3516-4266-b455-98f644f1a5b0",
+      "BackgroundPosition": "Stretch"
+    }
+  },
+  "Dependencies": [
+    {
+      "Id": "b8874d46-d6ea-4f1d-8d13-9ac6ae55e1c2",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "377fe917-7bf5-4b5a-871e-c1668d61aa24"
+    },
+    {
+      "ItemId": "1f36d0f9-ea41-4ac2-ab27-14d1e24ffb9c",
+      "PreviousItemId": "377fe917-7bf5-4b5a-871e-c1668d61aa24"
+    },
+    {
+      "ItemId": "14c38534-31f1-4544-b0b5-70818bb26912",
+      "PreviousItemId": "1f36d0f9-ea41-4ac2-ab27-14d1e24ffb9c"
+    },
+    {
+      "ItemId": "37d3a368-a5c0-4fd7-8d76-f0476382ac1b",
+      "PreviousItemId": "14c38534-31f1-4544-b0b5-70818bb26912"
+    },
+    {
+      "ItemId": "3bb27edd-84d6-4b08-8010-c11f4354a4d6",
+      "PreviousItemId": "37d3a368-a5c0-4fd7-8d76-f0476382ac1b"
+    },
+    {
+      "ItemId": "3f630b8a-8ab1-493f-80b5-c6296200b925",
+      "PreviousItemId": "3bb27edd-84d6-4b08-8010-c11f4354a4d6"
+    },
+    {
+      "ItemId": "44316968-fe3b-4ab6-adc3-19282e50786c",
+      "PreviousItemId": "3f630b8a-8ab1-493f-80b5-c6296200b925"
+    },
+    {
+      "ItemId": "74bd6fe0-0d62-4564-880e-e2b4815a54c9",
+      "PreviousItemId": "44316968-fe3b-4ab6-adc3-19282e50786c"
+    },
+    {
+      "ItemId": "4af363a1-e42e-4c7d-a938-718063b63863",
+      "PreviousItemId": "74bd6fe0-0d62-4564-880e-e2b4815a54c9"
+    },
+    {
+      "ItemId": "ed9696ba-5785-4e2a-88d6-942d79a43027",
+      "PreviousItemId": "4af363a1-e42e-4c7d-a938-718063b63863"
+    },
+    {
+      "ItemId": "76115701-f44b-43b2-8310-a62b5b155bd5",
+      "PreviousItemId": "ed9696ba-5785-4e2a-88d6-942d79a43027"
+    },
+    {
+      "ItemId": "ebd3b318-c7fb-4560-9242-bdb696a615fe",
+      "PreviousItemId": "76115701-f44b-43b2-8310-a62b5b155bd5"
+    },
+    {
+      "ItemId": "40e8888a-003f-40ae-a261-2ca58432019b",
+      "PreviousItemId": "ebd3b318-c7fb-4560-9242-bdb696a615fe"
+    },
+    {
+      "ItemId": "0536d146-539a-49ca-b4bc-184b22ba71e2",
+      "PreviousItemId": "40e8888a-003f-40ae-a261-2ca58432019b"
+    },
+    {
+      "ItemId": "48f41dd8-f7f8-46ab-b005-ce3516c3655d",
+      "PreviousItemId": "0536d146-539a-49ca-b4bc-184b22ba71e2"
+    },
+    {
+      "ItemId": "e7fdc1f7-555f-4daa-9b29-570d90f2352c",
+      "PreviousItemId": "48f41dd8-f7f8-46ab-b005-ce3516c3655d"
+    },
+    {
+      "ItemId": "76f02205-df17-43c7-bb2b-2c3a81ff5232",
+      "PreviousItemId": "e7fdc1f7-555f-4daa-9b29-570d90f2352c"
+    },
+    {
+      "ItemId": "5b4260c7-f3a1-4426-aeeb-3d5f60f913f6",
+      "PreviousItemId": "76f02205-df17-43c7-bb2b-2c3a81ff5232"
+    },
+    {
+      "ItemId": "9013c392-173f-4126-835c-e5b30ffcdaa8",
+      "PreviousItemId": "5b4260c7-f3a1-4426-aeeb-3d5f60f913f6"
+    },
+    {
+      "ItemId": "216fc60e-f12c-4c72-8fd7-cc669bb1a21f",
+      "PreviousItemId": "9013c392-173f-4126-835c-e5b30ffcdaa8"
+    },
+    {
+      "ItemId": "59dddc72-4781-4fa6-bc84-64fcb12d5985",
+      "PreviousItemId": "216fc60e-f12c-4c72-8fd7-cc669bb1a21f"
+    },
+    {
+      "ItemId": "19565960-4ce4-4d15-aece-8f87017b8766",
+      "PreviousItemId": "59dddc72-4781-4fa6-bc84-64fcb12d5985"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.BusinessTrips",
+  "PublicConstants": [
+    {
+      "Name": "CancelRelationName",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Cancel\""
+    },
+    {
+      "Name": "ExpenseReportRemindMessageDelayDays",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Int32",
+      "Value": "3"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "CreateBusinessTrip",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "departureDate",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "returnDate",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        },
+        {
+          "Name": "purpose",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "expencesSum",
+          "ParameterType": "global::System.Double",
+          "ParameterTypeFullName": "System.Double"
+        },
+        {
+          "Name": "financeSource",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "byCar",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        },
+        {
+          "Name": "needTicketAndHotel",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        },
+        {
+          "Name": "carModel",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "carNumber",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "route",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.BusinessTrips.Structures.BusinessTrip.IRouteStep>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "expenses",
+          "ParameterType": "global::System.Collections.Generic.List<global::DirRX.BusinessTrips.Structures.BusinessTrip.IExpense>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "note",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::DirRX.BusinessTrips.IBusinessTrip",
+      "ReturnTypeFullName": "DirRX.BusinessTrips.IBusinessTrip, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateCancelOrder",
+      "Parameters": [
+        {
+          "Name": "businessTrip",
+          "ParameterType": "global::DirRX.BusinessTrips.IBusinessTrip",
+          "ParameterTypeFullName": "DirRX.BusinessTrips.IBusinessTrip, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "cancelReason",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::DirRX.BusinessTrips.IBusinessTripOrder",
+      "ReturnTypeFullName": "DirRX.BusinessTrips.IBusinessTripOrder, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateChangeOrder",
+      "Parameters": [
+        {
+          "Name": "businessTrip",
+          "ParameterType": "global::DirRX.BusinessTrips.IBusinessTrip",
+          "ParameterTypeFullName": "DirRX.BusinessTrips.IBusinessTrip, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "changeReason",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::DirRX.BusinessTrips.IBusinessTripOrder",
+      "ReturnTypeFullName": "DirRX.BusinessTrips.IBusinessTripOrder, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateNewBusinessTripApprovalTask",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateNewBusinessTripApprovalTask",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.BusinessTrips.IBusinessTripApprovalTask",
+      "ReturnTypeFullName": "DirRX.BusinessTrips.IBusinessTripApprovalTask, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateOrder",
+      "Parameters": [
+        {
+          "Name": "businessTrip",
+          "ParameterType": "global::DirRX.BusinessTrips.IBusinessTrip",
+          "ParameterTypeFullName": "DirRX.BusinessTrips.IBusinessTrip, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::DirRX.BusinessTrips.IBusinessTripOrder",
+      "ReturnTypeFullName": "DirRX.BusinessTrips.IBusinessTripOrder, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateOrderBase",
+      "Parameters": [
+        {
+          "Name": "businessTrip",
+          "ParameterType": "global::DirRX.BusinessTrips.IBusinessTrip",
+          "ParameterTypeFullName": "DirRX.BusinessTrips.IBusinessTrip, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "orderKindEntityGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        },
+        {
+          "Name": "orderTemplateName",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::DirRX.BusinessTrips.IBusinessTripOrder",
+      "ReturnTypeFullName": "DirRX.BusinessTrips.IBusinessTripOrder, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateRecallOrder",
+      "Parameters": [
+        {
+          "Name": "businessTrip",
+          "ParameterType": "global::DirRX.BusinessTrips.IBusinessTrip",
+          "ParameterTypeFullName": "DirRX.BusinessTrips.IBusinessTrip, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "recallReason",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "recallDate",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "ReturnType": "global::DirRX.BusinessTrips.IBusinessTripOrder",
+      "ReturnTypeFullName": "DirRX.BusinessTrips.IBusinessTripOrder, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetCancelTasksByBusinessTripApprovalTask",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "businessTripApprovalTask",
+          "ParameterType": "global::DirRX.BusinessTrips.IBusinessTripApprovalTask",
+          "ParameterTypeFullName": "DirRX.BusinessTrips.IBusinessTripApprovalTask, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Linq.IQueryable<global::DirRX.BusinessTrips.IBusinessTripCancelTask>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "GetHotelExpenseType",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.ExpenseReports.IExpenseType",
+      "ReturnTypeFullName": "DirRX.ExpenseReports.IExpenseType, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetMyBusinessTrips",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.Linq.IQueryable<global::DirRX.BusinessTrips.IBusinessTrip>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "GetMyFutureBusinessTrips",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.Linq.IQueryable<global::DirRX.BusinessTrips.IBusinessTrip>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "GetMyPastBusinessTrips",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.Linq.IQueryable<global::DirRX.BusinessTrips.IBusinessTrip>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "GetOrderSigner",
+      "Parameters": [
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.CoreEntities.IRecipient",
+      "ReturnTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+    },
+    {
+      "Name": "GetPerDiemExpenseType",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.ExpenseReports.IExpenseType",
+      "ReturnTypeFullName": "DirRX.ExpenseReports.IExpenseType, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetRecallTasksByBusinessTrip",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "businessTrip",
+          "ParameterType": "global::DirRX.BusinessTrips.IBusinessTrip",
+          "ParameterTypeFullName": "DirRX.BusinessTrips.IBusinessTrip, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Linq.IQueryable<global::DirRX.BusinessTrips.IBusinessTripRecallTask>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "SelectModuleSettings",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ShowMyBusinessTrips",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ShowMyFutureBusinessTrips",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ShowMyPastBusinessTrips",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.BusinessTrips",
+  "ResourcesKeys": [
+    "BusinessTripOrderKindName",
+    "BusinessTripMemoKindName",
+    "OrderTypeName",
+    "MemoTypeName",
+    "RoleNameAccountant",
+    "RoleDescrAccountant",
+    "RoleNameTiketsResponsible",
+    "RoleDescrTiketsResponsible",
+    "ModuleSettings",
+    "RoleNameOrdersSigner",
+    "RoleDescrOrdersSigner",
+    "CantEmplementByNotEmployee",
+    "BusinessTripNameTemplate",
+    "ModuleSettingsAccessErrorText",
+    "BusinessTripRecallOrderKindName",
+    "BusinessTripCancellOrderKindName",
+    "ChangeBusinessTripOrderKindName",
+    "NoManagerInDepartmentError",
+    "PerDiemExpenseTypeSelect",
+    "HotelExpenseTypeSelect",
+    "ExpenseTypeHotel",
+    "ExpenseTypePerDiem"
+  ],
+  "ServerAssemblyName": "DirRX.BusinessTrips.Server",
+  "ServerNamespace": "DirRX.BusinessTrips.Server",
+  "SharedAssemblyName": "DirRX.BusinessTrips.Shared",
+  "SharedNamespace": "DirRX.BusinessTrips.Shared",
+  "SpecialFolders": [],
+  "Version": "1.0.4323.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

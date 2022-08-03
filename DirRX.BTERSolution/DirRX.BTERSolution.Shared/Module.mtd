@@ -1,0 +1,64 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "b8874d46-d6ea-4f1d-8d13-9ac6ae55e1c2",
+  "Name": "BTERSolution",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "DirRX.BTERSolution.Client",
+  "ClientBaseAssemblyName": "DirRX.BTERSolution.ClientBase",
+  "ClientBaseNamespace": "DirRX.BTERSolution.ClientBase",
+  "ClientNamespace": "DirRX.BTERSolution.Client",
+  "Code": "BTERSol",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "f409bc6d-2286-42f8-bdd0-1dbf17e2b0ea",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "50e26792-7df2-405f-9aae-1bdb065041d1",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "9af79811-17be-4625-90b9-3e1f4fdd7d6e",
+      "BackgroundPosition": "Stretch"
+    }
+  },
+  "Dependencies": [
+    {
+      "Id": "459fa497-ee5b-49a4-9980-de00cada9b7a",
+      "MaxVersion": "",
+      "MinVersion": "4.3.23.0"
+    }
+  ],
+  "DesktopViews": [],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.BTERSolution",
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.BTERSolution",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "DirRX.BTERSolution.Server",
+  "ServerNamespace": "DirRX.BTERSolution.Server",
+  "SharedAssemblyName": "DirRX.BTERSolution.Shared",
+  "SharedNamespace": "DirRX.BTERSolution.Shared",
+  "SpecialFolders": [],
+  "Version": "1.0.4323.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

@@ -1,0 +1,1138 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "f38ae010-8e13-4ab1-a9c3-b2c7a67a1db7",
+  "Name": "ExpenseReports",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "DirRX.ExpenseReports.Client",
+  "ClientBaseAssemblyName": "DirRX.ExpenseReports.ClientBase",
+  "ClientBaseNamespace": "DirRX.ExpenseReports.ClientBase",
+  "ClientNamespace": "DirRX.ExpenseReports.Client",
+  "Code": "Expense",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "480c7179-7795-444b-8f94-e9adc239a9ae",
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "09a66dcf-d980-41ff-84bd-a9ed5cbe0241",
+        "Name": "MySupportingDocuments",
+        "EntityTypeId": "c5bf830e-cc64-40b3-81e6-6f68aab6029d",
+        "GroupId": "578f7347-3159-4b3a-b8d9-4ba9af286d80"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "31e07a66-ec23-4202-83e5-2e264d5684fc",
+        "Name": "ShowAllExpenseReports",
+        "EntityTypeId": "4a86ddf3-2612-4562-8091-59b47ac50f61",
+        "GroupId": "52bd137a-cc4a-4a0c-aa1d-ebb64e65e789",
+        "PreviousItemGuid": "d464313f-3091-4e12-afd4-76d5c7ffb5ae"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "503912be-6577-4e18-971c-e98d9b4e3317",
+        "Name": "CurrencyRate",
+        "EntityTypeId": "9f0102c0-ea20-4397-9252-ddf2ea57dce2",
+        "GroupId": "16995c98-dc9a-4bcc-87f2-4d3469b0c921",
+        "PreviousItemGuid": "7bfb1f88-f28f-40cd-9b65-05d10f7ec15b"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "68521b90-a169-4d46-ac7d-b61f72b41cee",
+        "Name": "LimitSettings",
+        "EntityTypeId": "150c4a95-7fe6-45db-9ba1-10ea61aedd65",
+        "GroupId": "16995c98-dc9a-4bcc-87f2-4d3469b0c921",
+        "PreviousItemGuid": "503912be-6577-4e18-971c-e98d9b4e3317"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "7b5c6e0e-7079-4490-a638-e16c15667c48",
+        "Name": "ExpenseRequest",
+        "FunctionName": "CreateNewExpenseRequestTask",
+        "GroupId": "bc2f1f35-6baf-4fd8-96ad-5a95714d1c43"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "7bfb1f88-f28f-40cd-9b65-05d10f7ec15b",
+        "Name": "ExpenseType",
+        "EntityTypeId": "5cf1c896-96db-45d2-995d-89eea10efeeb",
+        "GroupId": "16995c98-dc9a-4bcc-87f2-4d3469b0c921",
+        "PreviousItemGuid": "aac0825e-41a9-4bfb-82aa-c6349f78961f"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "7d1db614-ff3c-46d6-9016-b03ee15f671a",
+        "Name": "ShowAllExpenseRequests",
+        "EntityTypeId": "9dad03b6-551a-44e4-aa30-6b5e7ac6174c",
+        "GroupId": "bc2f1f35-6baf-4fd8-96ad-5a95714d1c43",
+        "PreviousItemGuid": "7b5c6e0e-7079-4490-a638-e16c15667c48"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "a87022c0-4704-43ae-a6fb-17448809dc99",
+        "Name": "MyExpenseReports",
+        "FunctionName": "ShowMyExpenseReports",
+        "GroupId": "52bd137a-cc4a-4a0c-aa1d-ebb64e65e789",
+        "PreviousItemGuid": "31e07a66-ec23-4202-83e5-2e264d5684fc"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "aac0825e-41a9-4bfb-82aa-c6349f78961f",
+        "Name": "ModuleSettings",
+        "FunctionName": "SelectModuleSettings",
+        "GroupId": "16995c98-dc9a-4bcc-87f2-4d3469b0c921"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "d464313f-3091-4e12-afd4-76d5c7ffb5ae",
+        "Name": "CreateExpenseReport",
+        "FunctionName": "CreateNewExpenseReport",
+        "GroupId": "52bd137a-cc4a-4a0c-aa1d-ebb64e65e789"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "fcf16dd6-c4a7-4b9b-b6e7-b66ab91b145f",
+        "Name": "ExportDocs",
+        "FunctionName": "ExportExpenseReportDialogWithSearchInWeb",
+        "GroupId": "cbed3240-8126-4ecf-83e3-8cffd55db406",
+        "IsVisibleInDesktopClient": false
+      }
+    ],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "b4c39044-2807-410b-864a-bb030ff33f71",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [
+      {
+        "NameGuid": "52bd137a-cc4a-4a0c-aa1d-ebb64e65e789",
+        "Name": "ERSGroup",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconERSGroup_52bd137acc4a4a0caa1debb64e65e789.png"
+      },
+      {
+        "NameGuid": "578f7347-3159-4b3a-b8d9-4ba9af286d80",
+        "Name": "SupportingDocuments",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconReportingDocuments_578f734731594b3ab8d94ba9af286d80.png",
+        "PreviousItemGuid": "52bd137a-cc4a-4a0c-aa1d-ebb64e65e789"
+      },
+      {
+        "NameGuid": "bc2f1f35-6baf-4fd8-96ad-5a95714d1c43",
+        "Name": "ExpenseRequestGroup",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconExpenseRequestGroup_bc2f1f356baf4fd896ad5a95714d1c43.png",
+        "PreviousItemGuid": "578f7347-3159-4b3a-b8d9-4ba9af286d80"
+      },
+      {
+        "NameGuid": "cbed3240-8126-4ecf-83e3-8cffd55db406",
+        "Name": "UploadDocs",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconUploadDocs_cbed324081264ecf83e38cffd55db406.png",
+        "PreviousItemGuid": "bc2f1f35-6baf-4fd8-96ad-5a95714d1c43"
+      },
+      {
+        "NameGuid": "424c198b-a690-43ff-abe1-bea14056c9b1",
+        "Name": "EmptyGroup",
+        "BackgroundPosition": "Stretch",
+        "PreviousItemGuid": "cbed3240-8126-4ecf-83e3-8cffd55db406"
+      },
+      {
+        "NameGuid": "16995c98-dc9a-4bcc-87f2-4d3469b0c921",
+        "Name": "Settings",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconSettings_16995c98dc9a4bcc87f24d3469b0c921.png",
+        "PreviousItemGuid": "424c198b-a690-43ff-abe1-bea14056c9b1"
+      }
+    ],
+    "Header": {
+      "NameGuid": "ce59cefe-4de5-446e-bf28-547bb242264e",
+      "BackgroundPosition": "Stretch"
+    }
+  },
+  "Dependencies": [
+    {
+      "Id": "b8874d46-d6ea-4f1d-8d13-9ac6ae55e1c2",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "4a86ddf3-2612-4562-8091-59b47ac50f61",
+      "PreviousItemId": "bb6a580d-bb80-483a-b677-15b00b59dd47"
+    },
+    {
+      "ItemId": "cc7c9ef3-4fc3-469c-bdd4-6dfa8a7eac0e",
+      "PreviousItemId": "4a86ddf3-2612-4562-8091-59b47ac50f61"
+    },
+    {
+      "ItemId": "fa2c8d95-50db-4367-afa7-c2b9b44c50a5",
+      "PreviousItemId": "cc7c9ef3-4fc3-469c-bdd4-6dfa8a7eac0e"
+    },
+    {
+      "ItemId": "8c1a2dae-ea9e-47d4-b542-a7d23ef5f708",
+      "PreviousItemId": "fa2c8d95-50db-4367-afa7-c2b9b44c50a5"
+    },
+    {
+      "ItemId": "f7e82b09-3e16-4e69-9c54-a76bc4a11a9d",
+      "PreviousItemId": "8c1a2dae-ea9e-47d4-b542-a7d23ef5f708"
+    },
+    {
+      "ItemId": "9d72ec2f-2f5b-4de4-987f-059a00de0a88",
+      "PreviousItemId": "f7e82b09-3e16-4e69-9c54-a76bc4a11a9d"
+    },
+    {
+      "ItemId": "3799a50a-5a69-4f09-a2f1-d737c81793c5",
+      "PreviousItemId": "9d72ec2f-2f5b-4de4-987f-059a00de0a88"
+    },
+    {
+      "ItemId": "c5bf830e-cc64-40b3-81e6-6f68aab6029d",
+      "PreviousItemId": "3799a50a-5a69-4f09-a2f1-d737c81793c5"
+    },
+    {
+      "ItemId": "9dad03b6-551a-44e4-aa30-6b5e7ac6174c",
+      "PreviousItemId": "c5bf830e-cc64-40b3-81e6-6f68aab6029d"
+    },
+    {
+      "ItemId": "5cf1c896-96db-45d2-995d-89eea10efeeb",
+      "PreviousItemId": "9dad03b6-551a-44e4-aa30-6b5e7ac6174c"
+    },
+    {
+      "ItemId": "1f9f5af0-44b0-444b-bc46-b240938be44a",
+      "PreviousItemId": "5cf1c896-96db-45d2-995d-89eea10efeeb"
+    },
+    {
+      "ItemId": "4dfbc4b8-238d-4036-9c2c-634f70fb3607",
+      "PreviousItemId": "1f9f5af0-44b0-444b-bc46-b240938be44a"
+    },
+    {
+      "ItemId": "77991804-61c2-4263-9827-cb5c5e35fe5e",
+      "PreviousItemId": "4dfbc4b8-238d-4036-9c2c-634f70fb3607"
+    },
+    {
+      "ItemId": "9f0102c0-ea20-4397-9252-ddf2ea57dce2",
+      "PreviousItemId": "77991804-61c2-4263-9827-cb5c5e35fe5e"
+    },
+    {
+      "ItemId": "150c4a95-7fe6-45db-9ba1-10ea61aedd65",
+      "PreviousItemId": "9f0102c0-ea20-4397-9252-ddf2ea57dce2"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InitializationFunctions": [
+    {
+      "Name": "FillSmartProcessingSettings",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.ExpenseReports",
+  "Jobs": [
+    {
+      "NameGuid": "ee2f8ed6-d184-4e44-97d5-289b5f46f0ba",
+      "Name": "DownloadRates",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T08:30:00"
+    }
+  ],
+  "Libraries": [
+    {
+      "NameGuid": "90f34aa9-bd84-49d8-bc89-ad62802dd48b",
+      "Name": "AsposeExtensions",
+      "Scope": "Both"
+    },
+    {
+      "NameGuid": "d3173598-44b5-4bcb-b306-db8a28098e2d",
+      "Name": "Aspose",
+      "Scope": "Server"
+    },
+    {
+      "NameGuid": "d82618ea-cc05-4773-ab5d-cb87f76131f7",
+      "Name": "Dialogs",
+      "Scope": "Both"
+    }
+  ],
+  "PublicConstants": [
+    {
+      "Name": "AviaKind",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuids"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"3D532E6F-7C80-4496-8CC9-A184CFCAA418\")"
+    },
+    {
+      "Name": "ConvertMb",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Int32",
+      "Value": "1048576"
+    },
+    {
+      "Name": "ExportedFilesCountMaxLimit",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Int32",
+      "Value": "5000"
+    },
+    {
+      "Name": "ExportedFilesSizeMaxLimitMb",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Int32",
+      "Value": "450"
+    },
+    {
+      "Name": "LimitHighlightColorRed",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"#FAC6B6\""
+    },
+    {
+      "Name": "ModeKey",
+      "ParentClasses": [
+        "Module",
+        "DocflowParamKeys"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"DirRX.BTERSolution.Mode\""
+    },
+    {
+      "Name": "RailwayTicketKind",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuids"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"9881E9F2-6BDF-4DE4-8709-5392D3C98515\")"
+    },
+    {
+      "Name": "ReceiptKind",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuids"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"1028B59E-7049-43C6-97E6-4F289EB388A1\")"
+    },
+    {
+      "Name": "SimpleRelationName",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Simple relation\""
+    },
+    {
+      "Name": "SupportingDocKind",
+      "ParentClasses": [
+        "Module",
+        "DocumentKindGuids"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"786B0D1C-35F5-4F25-B45D-D144CC380CA3\")"
+    },
+    {
+      "Name": "SupportingDocsMailKey",
+      "ParentClasses": [
+        "Module",
+        "DocflowParamKeys"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"SupportingDocsMailKey\""
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "AddDocflowParam",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "key",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "val",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "AddDocsToExpenseReport",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "documents",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Docflow.IOfficialDocument>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "responsible",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ApproveDocument",
+      "Parameters": [
+        {
+          "Name": "assignment",
+          "ParameterType": "global::Sungero.Workflow.IAssignment",
+          "ParameterTypeFullName": "Sungero.Workflow.IAssignment, Sungero.Workflow.Interfaces"
+        },
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "comment",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "eventArgs",
+          "ParameterType": "Sungero.Core.IValidationArgs"
+        },
+        {
+          "Name": "EndorseWhenCantApprove",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ApproveDocument",
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "comment",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "signatory",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "eventArgs",
+          "ParameterType": "Sungero.Core.IValidationArgs"
+        },
+        {
+          "Name": "EndorseWhenCantApprove",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "BuildDocumentPackage",
+      "Parameters": [
+        {
+          "Name": "blobPackage",
+          "ParameterType": "global::Sungero.SmartProcessing.IBlobPackage",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.IBlobPackage, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "arioPackage",
+          "ParameterType": "global::Sungero.SmartProcessing.Structures.Module.IArioPackage",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.Structures.Module.IArioPackage"
+        }
+      ],
+      "ReturnType": "global::Sungero.SmartProcessing.Structures.Module.IDocumentPackage",
+      "ReturnTypeFullName": "Sungero.SmartProcessing.Structures.Module.IDocumentPackage"
+    },
+    {
+      "Name": "ConvertIntoRUB",
+      "Parameters": [
+        {
+          "Name": "currency",
+          "ParameterType": "global::Sungero.Commons.ICurrency",
+          "ParameterTypeFullName": "Sungero.Commons.ICurrency, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "total",
+          "ParameterType": "global::System.Nullable<global::System.Double>",
+          "ParameterTypeFullName": "System.Nullable"
+        },
+        {
+          "Name": "date",
+          "ParameterType": "global::System.Nullable<global::System.DateTime>",
+          "ParameterTypeFullName": "System.Nullable"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Nullable<global::System.Double>",
+      "ReturnTypeFullName": "System.Nullable"
+    },
+    {
+      "Name": "ConvertLastVersionToPDF",
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Content.IElectronicDocument",
+          "ParameterTypeFullName": "Sungero.Content.IElectronicDocument, Sungero.Content.Shared"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateAddDocsToExpenseReportNotice",
+      "Parameters": [
+        {
+          "Name": "subject",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "text",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "responsible",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "documents",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Docflow.IOfficialDocument>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateAirTicket",
+      "Parameters": [
+        {
+          "Name": "documentInfo",
+          "ParameterType": "global::Sungero.SmartProcessing.Structures.Module.IDocumentInfo",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.Structures.Module.IDocumentInfo"
+        },
+        {
+          "Name": "responsible",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.Docflow.IOfficialDocument",
+      "ReturnTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateDocument",
+      "Parameters": [
+        {
+          "Name": "documentInfo",
+          "ParameterType": "global::Sungero.SmartProcessing.Structures.Module.IDocumentInfo",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.Structures.Module.IDocumentInfo"
+        },
+        {
+          "Name": "documentPackage",
+          "ParameterType": "global::Sungero.SmartProcessing.Structures.Module.IDocumentPackage",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.Structures.Module.IDocumentPackage"
+        }
+      ],
+      "ReturnType": "global::Sungero.Docflow.IOfficialDocument",
+      "ReturnTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateExpenseReport",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "purpose",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "gettedMoney",
+          "ParameterType": "global::System.Double",
+          "ParameterTypeFullName": "System.Double"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.ExpenseReports.IExpenseReport",
+      "ReturnTypeFullName": "DirRX.ExpenseReports.IExpenseReport, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateExpenseReportApprovalTask",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::DirRX.ExpenseReports.IExpenseReport",
+          "ParameterTypeFullName": "DirRX.ExpenseReports.IExpenseReport, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.ExpenseReports.IExpenseReportApprovalTask",
+      "ReturnTypeFullName": "DirRX.ExpenseReports.IExpenseReportApprovalTask, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateNewExpenseReport",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "CreateRailwayTicket",
+      "Parameters": [
+        {
+          "Name": "documentInfo",
+          "ParameterType": "global::Sungero.SmartProcessing.Structures.Module.IDocumentInfo",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.Structures.Module.IDocumentInfo"
+        },
+        {
+          "Name": "responsible",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.Docflow.IOfficialDocument",
+      "ReturnTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateReceipt",
+      "Parameters": [
+        {
+          "Name": "documentInfo",
+          "ParameterType": "global::Sungero.SmartProcessing.Structures.Module.IDocumentInfo",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.Structures.Module.IDocumentInfo"
+        },
+        {
+          "Name": "responsible",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.Docflow.IOfficialDocument",
+      "ReturnTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "CreateSimpleSupportingDocument",
+      "Parameters": [
+        {
+          "Name": "documentInfo",
+          "ParameterType": "global::Sungero.SmartProcessing.Structures.Module.IDocumentInfo",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.Structures.Module.IDocumentInfo"
+        },
+        {
+          "Name": "responsible",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.Docflow.IOfficialDocument",
+      "ReturnTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "DownloadRatesFromSite",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ExportExpenseReportDialogWithSearchInWeb",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ExtractQR",
+      "Parameters": [
+        {
+          "Name": "inputStream",
+          "ParameterType": "System.IO.Stream"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::System.String>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "FillDataForReceipt",
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::DirRX.ExpenseReports.ISupportingDocument",
+          "ParameterTypeFullName": "DirRX.ExpenseReports.ISupportingDocument, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "documentInfo",
+          "ParameterType": "global::Sungero.SmartProcessing.Structures.Module.IDocumentInfo",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.Structures.Module.IDocumentInfo"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "FillDataForTicket",
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::DirRX.ExpenseReports.ISupportingDocument",
+          "ParameterTypeFullName": "DirRX.ExpenseReports.ISupportingDocument, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "documentInfo",
+          "ParameterType": "global::Sungero.SmartProcessing.Structures.Module.IDocumentInfo",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.Structures.Module.IDocumentInfo"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "GetActiveExpenseTypes",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.Linq.IQueryable<global::DirRX.ExpenseReports.IExpenseType>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "GetCurrencyRateForDate",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "currency",
+          "ParameterType": "global::Sungero.Commons.ICurrency",
+          "ParameterTypeFullName": "Sungero.Commons.ICurrency, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "date",
+          "ParameterType": "global::System.DateTime",
+          "ParameterTypeFullName": "System.DateTime"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Nullable<global::System.Double>",
+      "ReturnTypeFullName": "System.Nullable"
+    },
+    {
+      "Name": "GetCurrencyRUB",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Commons.ICurrency",
+      "ReturnTypeFullName": "Sungero.Commons.ICurrency, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetDepartmentRecipients",
+      "Parameters": [
+        {
+          "Name": "department",
+          "ParameterType": "global::Sungero.Company.IDepartment",
+          "ParameterTypeFullName": "Sungero.Company.IDepartment, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IRecipient>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetDocflowParamValue",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "key",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetDocumentKind",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "documentKindEntityGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Docflow.IDocumentKind",
+      "ReturnTypeFullName": "Sungero.Docflow.IDocumentKind, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetDocumentNameForExport",
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetEmpoyeeByEmail",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "email",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Company.IEmployee",
+      "ReturnTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetLastDraftExpenseReportByEmployee",
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::DirRX.ExpenseReports.IExpenseReport",
+      "ReturnTypeFullName": "DirRX.ExpenseReports.IExpenseReport, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetLimitSetting",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "expenseType",
+          "ParameterType": "global::DirRX.ExpenseReports.IExpenseType",
+          "ParameterTypeFullName": "DirRX.ExpenseReports.IExpenseType, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "city",
+          "ParameterType": "global::Sungero.Commons.ICity",
+          "ParameterTypeFullName": "Sungero.Commons.ICity, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::DirRX.ExpenseReports.ILimitSetting",
+      "ReturnTypeFullName": "DirRX.ExpenseReports.ILimitSetting, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetManager",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Company.IEmployee",
+      "ReturnTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetMyExpenseReports",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.Linq.IQueryable<global::DirRX.ExpenseReports.IExpenseReport>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    },
+    {
+      "Name": "GetRole",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "roleGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.CoreEntities.IRole",
+      "ReturnTypeFullName": "Sungero.CoreEntities.IRole, Sungero.Domain.Shared"
+    },
+    {
+      "Name": "GetRoleRecipientForBusinessUnit",
+      "Parameters": [
+        {
+          "Name": "roleGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        },
+        {
+          "Name": "businessUnit",
+          "ParameterType": "global::Sungero.Company.IBusinessUnit",
+          "ParameterTypeFullName": "Sungero.Company.IBusinessUnit, Sungero.Domain.Interfaces"
+        }
+      ],
+      "ReturnType": "global::Sungero.CoreEntities.IRecipient",
+      "ReturnTypeFullName": "Sungero.CoreEntities.IRecipient, Sungero.Domain.Shared"
+    },
+    {
+      "Name": "GetRoleRecipients",
+      "Parameters": [
+        {
+          "Name": "roleGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        },
+        {
+          "Name": "processedRoles",
+          "ParameterType": "global::System.Collections.Generic.List<global::System.Guid>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.CoreEntities.IRecipient>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "GetSignatureMarkAsHtml",
+      "Parameters": [
+        {
+          "Name": "signatureList",
+          "ParameterType": "global::System.Collections.Generic.List<Sungero.Domain.Shared.ISignature>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        }
+      ],
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetTemplateForExpenseReport",
+      "ReturnType": "global::Sungero.Content.IElectronicDocumentTemplate",
+      "ReturnTypeFullName": "Sungero.Content.IElectronicDocumentTemplate, Sungero.Content.Shared"
+    },
+    {
+      "Name": "GetTextState",
+      "Parameters": [
+        {
+          "Name": "text",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "global::Sungero.Core.StateView",
+      "ReturnTypeFullName": "Sungero.Core.StateView, Sungero.Domain.Shared"
+    },
+    {
+      "Name": "IsDebugEnabled",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "PrepareDocumentPackage",
+      "Parameters": [
+        {
+          "Name": "blobPackage",
+          "ParameterType": "global::Sungero.SmartProcessing.IBlobPackage",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.IBlobPackage, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "arioPackage",
+          "ParameterType": "global::Sungero.SmartProcessing.Structures.Module.IArioPackage",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.Structures.Module.IArioPackage"
+        }
+      ],
+      "ReturnType": "global::Sungero.SmartProcessing.Structures.Module.IDocumentPackage",
+      "ReturnTypeFullName": "Sungero.SmartProcessing.Structures.Module.IDocumentPackage"
+    },
+    {
+      "Name": "ProcessCapturedPackage",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "blobPackage",
+          "ParameterType": "global::Sungero.SmartProcessing.IBlobPackage",
+          "ParameterTypeFullName": "Sungero.SmartProcessing.IBlobPackage, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "SearchExpenseReportDocsByRequisites",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "filter",
+          "ParameterType": "global::DirRX.ExpenseReports.Structures.Module.IExportDialogSearch",
+          "ParameterTypeFullName": "DirRX.ExpenseReports.Structures.Module.IExportDialogSearch"
+        },
+        {
+          "Name": "withSupportingDocs",
+          "ParameterType": "global::System.Boolean",
+          "ParameterTypeFullName": "System.Boolean"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Docflow.IOfficialDocument>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    },
+    {
+      "Name": "SelectModuleSettings",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
+    {
+      "Name": "ShowMyExpenseReports",
+      "Placement": "Client",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "ExportDialogSearch",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "From",
+          "IsNullable": true,
+          "TypeFullName": "global::System.Nullable<global::System.DateTime>"
+        },
+        {
+          "Name": "To",
+          "IsNullable": true,
+          "TypeFullName": "global::System.Nullable<global::System.DateTime>"
+        },
+        {
+          "Name": "Unit",
+          "IsEntity": true,
+          "IsNullable": true,
+          "TypeFullName": "global::Sungero.Company.IBusinessUnit"
+        },
+        {
+          "Name": "Employee",
+          "IsEntity": true,
+          "IsNullable": true,
+          "TypeFullName": "global::Sungero.Company.IEmployee"
+        }
+      ],
+      "StructureNamespace": "DirRX.ExpenseReports.Structures.Module"
+    }
+  ],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.ExpenseReports",
+  "ResourcesKeys": [
+    "ExpenseReportTypeName",
+    "ExpenseReportKindName",
+    "RoleNameAccountant",
+    "RoleDescrAccountant",
+    "AviaKindName",
+    "RailwayTicketKindName",
+    "RailwayTicketKindShortName",
+    "ReceiptKindName",
+    "SupportingDocKindName",
+    "SupportingDocKindShortName",
+    "SupportingDocumentTypeName",
+    "ExportDialog_Title",
+    "ExportDialog_Search_DateFrom",
+    "ExportDialog_Search_DateTo",
+    "ExportDialog_Search_Show",
+    "ExportDialog_StartExport",
+    "ExportDialog_Close",
+    "ExportDialog_Step_Search",
+    "NoDocsForExportWarning",
+    "ExportDialog_Step_End_Web",
+    "ExportDialog_Error_Client_NoReason",
+    "ExportDialog_End_AllDocs",
+    "ExportDialog_End_NotExportedDocs",
+    "ExportDialog_Cancel",
+    "ExportDialog_Error_Client",
+    "ExportDialog_Error_NoVersion",
+    "ExportDialog_DatesError",
+    "ModuleSettings",
+    "MailSelect",
+    "ExportDialog_Download",
+    "ExportDialog_Error_Client_NoReason_Web",
+    "ExportDialog_TotalForDownload",
+    "ExportDialog_Error_ExportedFilesLimit",
+    "ExportDialog_Error_ExportedSizeLimit",
+    "ExportDocumentFolderName",
+    "HtmlStampTemplate",
+    "HtmlStampTemplateForCertSignature",
+    "HtmlStampTemplateForSimpleSignature",
+    "CreatePreviewError",
+    "ExportDialog_Back",
+    "ExportDialog_Next",
+    "ExportDialog_Step_DocsCount_Web",
+    "ExportLogTemplate",
+    "ExportedDocsListName",
+    "EmptyMailPackage",
+    "ExpenseReportLockedNoticeSubject",
+    "ExpenseReportLockedNoticeText",
+    "ExpenseReportNotFoundNoticeSubject",
+    "ExpenseReportNotFoundNoticeText",
+    "NoEmployeeByEmail",
+    "DebugModeName",
+    "ExpenseTypeAvia",
+    "ExpenseTypeTrain",
+    "ExpenseTypeRoad",
+    "ExpenseTypeOther",
+    "CaptureFromFolderUnavailableError"
+  ],
+  "ServerAssemblyName": "DirRX.ExpenseReports.Server",
+  "ServerNamespace": "DirRX.ExpenseReports.Server",
+  "SharedAssemblyName": "DirRX.ExpenseReports.Shared",
+  "SharedNamespace": "DirRX.ExpenseReports.Shared",
+  "SpecialFolders": [],
+  "Version": "1.0.4323.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 6
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

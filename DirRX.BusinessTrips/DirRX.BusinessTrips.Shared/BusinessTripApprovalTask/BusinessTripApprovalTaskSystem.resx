@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Business Trip Approval Task</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Business Trip Approval Task</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Business Trip Approval Tasks</value>
+  </data>
+  <data name="Property_Author" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Property_Purpose" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="ControlGroup_66508c0ed30b464a82c19ad214ce6298" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Property_DepartureDate" xml:space="preserve">
+    <value>Beginning date</value>
+  </data>
+  <data name="Property_ReturnDate" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="Property_ExpensesSum" xml:space="preserve">
+    <value>Amount of expenses</value>
+  </data>
+  <data name="Property_FinanceSource" xml:space="preserve">
+    <value>Source of finance</value>
+  </data>
+  <data name="Property_Route" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="Property_ByCar" xml:space="preserve">
+    <value>Initiate business trip by private car</value>
+  </data>
+  <data name="Property_NeedTicketAndHotel" xml:space="preserve">
+    <value>Request tickets and accommodation</value>
+  </data>
+  <data name="Property_CarModel" xml:space="preserve">
+    <value>Car model</value>
+  </data>
+  <data name="Property_CarNumber" xml:space="preserve">
+    <value>Car number</value>
+  </data>
+  <data name="AttachmentGroup_OrderGroupTitle" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="AttachmentGroup_OrderGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Property_CommonSubjectPart" xml:space="preserve">
+    <value>Task subject template</value>
+  </data>
+  <data name="Property_MoneyTransferred" xml:space="preserve">
+    <value>Money transferred</value>
+  </data>
+  <data name="Property_RecipientsForAbortNotification" xml:space="preserve">
+    <value>Users to notify of business trip cancellation</value>
+  </data>
+  <data name="Property_BlockId" xml:space="preserve">
+    <value>Block ID</value>
+  </data>
+  <data name="Property_StartTaskText" xml:space="preserve">
+    <value>Default task text</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupTitle" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="AttachmentGroup_OtherGroupInformationMessage" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Property_BusinessTripMemo" xml:space="preserve">
+    <value>Memo on private car</value>
+  </data>
+  <data name="AttachmentGroup_BusinessTripGroupTitle" xml:space="preserve">
+    <value>Business Trip</value>
+  </data>
+  <data name="AttachmentGroup_BusinessTripGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_IterationId" xml:space="preserve">
+    <value>Iteration ID</value>
+  </data>
+  <data name="Property_BusinessTripId" xml:space="preserve">
+    <value>ID of "Business Trip" databook record</value>
+  </data>
+  <data name="Action_ChangeTrip" xml:space="preserve">
+    <value>Change Trip</value>
+  </data>
+  <data name="Action_ChangeTripDescription" xml:space="preserve">
+    <value>Send the task for rework to change the parameters of the business trip.</value>
+  </data>
+  <data name="Action_ChangeTripHint" xml:space="preserve">
+    <value>Send Task for Rework to Change Trip Parameters</value>
+  </data>
+  <data name="Action_ChangeTripConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ChangeTripConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_Abort" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="Action_AbortHint" xml:space="preserve">
+    <value>Abort Task</value>
+  </data>
+  <data name="Action_AbortDescription" xml:space="preserve">
+    <value>Abort the task and all its assignments.</value>
+  </data>
+  <data name="Action_CancelTrip" xml:space="preserve">
+    <value>Cancel Trip</value>
+  </data>
+  <data name="Action_CancelTripDescription" xml:space="preserve">
+    <value>Cancel the business trip and abort the task.</value>
+  </data>
+  <data name="Property_IsChangedByUser" xml:space="preserve">
+    <value>Business trip changed by user</value>
+  </data>
+  <data name="Property_NeedChange" xml:space="preserve">
+    <value>Change required</value>
+  </data>
+  <data name="Action_CancelTripHint" xml:space="preserve">
+    <value>Cancel Business Trip</value>
+  </data>
+  <data name="Action_CancelTripConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_CancelTripConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_TicketAndHotelProccessed" xml:space="preserve">
+    <value>Tickets purchased/Accommodation booked</value>
+  </data>
+  <data name="Property_OrderSigned" xml:space="preserve">
+    <value>Order signed</value>
+  </data>
+  <data name="AttachmentGroup_ExpenseReportGroupTitle" xml:space="preserve">
+    <value>Expense Report</value>
+  </data>
+  <data name="AttachmentGroup_ExpenseReportGroupInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_ChangeReason" xml:space="preserve">
+    <value>Change reason</value>
+  </data>
+  <data name="Property_GiveMoneyAssignment" xml:space="preserve">
+    <value>Assignment to transfer money</value>
+  </data>
+  <data name="Property_BuyTicketsAssignment" xml:space="preserve">
+    <value>Assignment to purchase tickets</value>
+  </data>
+  <data name="Property_ChangeOrderExists" xml:space="preserve">
+    <value>Change order exists</value>
+  </data>
+  <data name="Property_RecallDate" xml:space="preserve">
+    <value>Date of recall from business trip</value>
+  </data>
+  <data name="Property_BossApprovalPerformer" xml:space="preserve">
+    <value>Approving manager</value>
+  </data>
+  <data name="Property_OrderSignerPerformer" xml:space="preserve">
+    <value>Order signatory</value>
+  </data>
+  <data name="Form_678f6e67d8534445b7ca6017d033422a" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+  <data name="Form_ce565fa218754d45a49da2a7f9a271eb" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="ControlGroup_7de24d0f098f42fd95bbefecfa915f29" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_02895c0180bf493bb786a8398eaafc18" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_Expenses" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+  <data name="ControlGroup_eec9ef57eb9d4f5c9b7007a70c7059f0" xml:space="preserve">
+    <value>Private Car Information</value>
+  </data>
+  <data name="Property_OldExpensesSum" xml:space="preserve">
+    <value>Amount of expenses before business trip change</value>
+  </data>
+  <data name="Property_FactDepartureDate" xml:space="preserve">
+    <value>Actual date of departure</value>
+  </data>
+  <data name="Property_FactReturnDate" xml:space="preserve">
+    <value>Actual date of return</value>
+  </data>
+  <data name="Property_MaxDeadline" xml:space="preserve">
+    <value>Final deadline</value>
+  </data>
+  <data name="Action_AddPerDiem" xml:space="preserve">
+    <value>Calculate Expenses</value>
+  </data>
+  <data name="Action_AddPerDiemDescription" xml:space="preserve">
+    <value>Calculate the total amount of daily allowance and accommodation limit based on the route.</value>
+  </data>
+  <data name="Action_AddPerDiemHint" xml:space="preserve">
+    <value>Calculate Total Amount of Daily Allowance and Accommodation Limit Based on Route</value>
+  </data>
+  <data name="Action_AddPerDiemConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_AddPerDiemConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
+</root>

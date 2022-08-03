@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <ViewName>Default</ViewName>
+  <Collection404dcede47e7400aa98f64fdf77405f6 FormGuid="5b1e1a0e-8477-4a02-8e86-66d5bfb62337">
+    <XtraSerializer version="1.0" application="GridControl">
+      <property name="#LayoutVersion" isnull="true" />
+      <property name="$GridControl" iskey="true" value="GridControl">
+        <property name="GroupSummary" iskey="true" value="0" />
+        <property name="View" isnull="true" iskey="true">
+          <property name="ShowTotalSummary">false</property>
+          <property name="AutoWidth">false</property>
+          <property name="AllowGrouping">false</property>
+          <property name="ShowGroupPanel">false</property>
+          <property name="ColumnChooserState" isnull="true" iskey="true">
+            <property name="Location">826,-2</property>
+            <property name="Size">220,250</property>
+          </property>
+          <property name="AllowSorting">true</property>
+          <property name="AllowColumnMoving">true</property>
+          <property name="AllowMoveColumnToDropArea">false</property>
+          <property name="IsRowCellMenuEnabled">false</property>
+          <property name="LinesPerRowMode">None</property>
+        </property>
+        <property name="GroupCount">0</property>
+        <property name="TotalSummary" iskey="true" value="0" />
+        <property name="Columns" iskey="true" value="6">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="FieldName">Org</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTrip_Route_Org</property>
+            <property name="ExtendedVisibleIndex">1</property>
+            <property name="VisibleIndex">1</property>
+            <property name="Width">147</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item2" isnull="true" iskey="true">
+            <property name="FieldName">Destination</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTrip_Route_Destination</property>
+            <property name="ExtendedVisibleIndex">0</property>
+            <property name="VisibleIndex">0</property>
+            <property name="Width">186</property>
+            <property name="ActualWidth">19*</property>
+          </property>
+          <property name="Item3" isnull="true" iskey="true">
+            <property name="FieldName">DateIn</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTrip_Route_DateIn</property>
+            <property name="ExtendedVisibleIndex">2</property>
+            <property name="VisibleIndex">2</property>
+            <property name="Width">147</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item4" isnull="true" iskey="true">
+            <property name="FieldName">DateOut</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTrip_Route_DateOut</property>
+            <property name="ExtendedVisibleIndex">4</property>
+            <property name="VisibleIndex">4</property>
+            <property name="Width">166</property>
+            <property name="ActualWidth">13*</property>
+          </property>
+          <property name="Item5" isnull="true" iskey="true">
+            <property name="FieldName">FactDateIn</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTrip_Route_FactDateIn</property>
+            <property name="ExtendedVisibleIndex">3</property>
+            <property name="VisibleIndex">3</property>
+            <property name="ActualWidth">16*</property>
+          </property>
+          <property name="Item6" isnull="true" iskey="true">
+            <property name="FieldName">FactDateOut</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTrip_Route_FactDateOut</property>
+            <property name="ExtendedVisibleIndex">5</property>
+            <property name="VisibleIndex">5</property>
+            <property name="ActualWidth">17*</property>
+          </property>
+        </property>
+        <property name="SortInfo" iskey="true" value="0" />
+        <property name="GroupSummarySortInfo" iskey="true" value="0" />
+      </property>
+    </XtraSerializer>
+  </Collection404dcede47e7400aa98f64fdf77405f6>
+  <Collection0cc81bef0f924d5e95ce46a6c84932ed FormGuid="14645352-0eca-443e-9994-2c685c3b5195">
+    <XtraSerializer version="1.0" application="GridControl">
+      <property name="#LayoutVersion" isnull="true" />
+      <property name="$GridControl" iskey="true" value="GridControl">
+        <property name="GroupSummary" iskey="true" value="0" />
+        <property name="View" isnull="true" iskey="true">
+          <property name="ShowTotalSummary">false</property>
+          <property name="AutoWidth">false</property>
+          <property name="AllowGrouping">false</property>
+          <property name="ShowGroupPanel">false</property>
+          <property name="ColumnChooserState" isnull="true" iskey="true">
+            <property name="Location">769,-2</property>
+            <property name="Size">220,250</property>
+          </property>
+          <property name="AllowSorting">true</property>
+          <property name="AllowColumnMoving">true</property>
+          <property name="AllowMoveColumnToDropArea">false</property>
+          <property name="IsRowCellMenuEnabled">false</property>
+          <property name="LinesPerRowMode">None</property>
+        </property>
+        <property name="GroupCount">0</property>
+        <property name="TotalSummary" iskey="true" value="0" />
+        <property name="Columns" iskey="true" value="4">
+          <property name="Item1" isnull="true" iskey="true">
+            <property name="FieldName">ExpenseSum</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTrip_Expenses_ExpenseSum</property>
+            <property name="ExtendedVisibleIndex">1</property>
+            <property name="VisibleIndex">1</property>
+            <property name="Width">123</property>
+            <property name="ActualWidth">12*</property>
+          </property>
+          <property name="Item2" isnull="true" iskey="true">
+            <property name="FieldName">ExpenseType</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTrip_Expenses_ExpenseType</property>
+            <property name="ExtendedVisibleIndex">0</property>
+            <property name="VisibleIndex">0</property>
+            <property name="Width">154</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+          <property name="Item3" isnull="true" iskey="true">
+            <property name="FieldName">ExpenseDescription</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTrip_Expenses_ExpenseDescription</property>
+            <property name="ExtendedVisibleIndex">2</property>
+            <property name="VisibleIndex">2</property>
+            <property name="Width">401</property>
+            <property name="ActualWidth">41*</property>
+          </property>
+          <property name="Item4" isnull="true" iskey="true">
+            <property name="FieldName">Limit</property>
+            <property name="Visible">true</property>
+            <property name="Name">BusinessTrip_Expenses_Limit</property>
+            <property name="VisibleIndex">3</property>
+            <property name="ActualWidth">15*</property>
+          </property>
+        </property>
+        <property name="SortInfo" iskey="true" value="0" />
+        <property name="GroupSummarySortInfo" iskey="true" value="0" />
+      </property>
+    </XtraSerializer>
+  </Collection0cc81bef0f924d5e95ce46a6c84932ed>
+</settings>

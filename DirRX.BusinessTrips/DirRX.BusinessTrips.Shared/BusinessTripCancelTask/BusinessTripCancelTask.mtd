@@ -1,0 +1,228 @@
+{
+  "$type": "Sungero.Metadata.TaskMetadata, Sungero.Workflow.Shared",
+  "NameGuid": "ed9696ba-5785-4e2a-88d6-942d79a43027",
+  "Name": "BusinessTripCancelTask",
+  "AccessRightsMode": "Both",
+  "Actions": [
+    {
+      "NameGuid": "83bd59b6-466b-4163-9719-1da6acffc409",
+      "Name": "Restart",
+      "AllowUserDisableConfirmation": true,
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "NeedConfirmation": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    },
+    {
+      "NameGuid": "d3da67a4-89e7-4ee5-bd0c-6b0f0bfb4bca",
+      "Name": "Abort",
+      "AllowUserDisableConfirmation": true,
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "NeedConfirmation": true,
+      "Overridden": [
+        "GenerateHandler"
+      ]
+    }
+  ],
+  "AttachmentGroups": [
+    {
+      "NameGuid": "dc70ef88-9cf1-4a7e-9042-ce646d662d0e",
+      "Name": "CancelOrderGroup",
+      "Constraints": [
+        {
+          "NameGuid": "29a5d433-8403-4a3a-903e-1b3539e6433c",
+          "Name": "BusinessTripOrders",
+          "ConstraintTypeId": "1f36d0f9-ea41-4ac2-ab27-14d1e24ffb9c",
+          "Limit": 1
+        }
+      ],
+      "IsEnabled": false
+    },
+    {
+      "NameGuid": "7ed6484c-bed6-482d-80f9-de2ff4728eb5",
+      "Name": "OtherGroup",
+      "Constraints": [],
+      "PreviousGroupId": "dc70ef88-9cf1-4a7e-9042-ce646d662d0e"
+    }
+  ],
+  "BaseGuid": "d795d1f6-45c1-4e5e-9677-b53fb7280c7e",
+  "BlockIds": [],
+  "CanBeNavigationPropertyType": true,
+  "CanBeSearch": true,
+  "CreationAreaMetadata": {
+    "NameGuid": "8d829390-c6cf-4b00-b846-412f2d086650",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "bd0a4ce3-3467-48ad-b905-3820bf6b9da6",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true
+  },
+  "HandledEvents": [
+    "BeforeStartServer",
+    "CreatedServer"
+  ],
+  "HideFromCreationArea": true,
+  "HideFromNavigationEditorCreationArea": true,
+  "IconResourcesKeys": [],
+  "IsAutoCreated": true,
+  "IsSelectableAsFolderContent": true,
+  "IsVisibleThreadText": true,
+  "NeverLinkToParentWhenCreated": true,
+  "OperationsClass": "",
+  "Overridden": [
+    "CanBeSearch",
+    "IsAutoCreated",
+    "HideFromNavigationEditorCreationArea",
+    "HideFromCreationArea"
+  ],
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "3364c324-c4c4-4ccb-a81c-53653255a022",
+      "Name": "Observers",
+      "EntityGuid": "c1b14ee6-f09e-46d3-ae43-98f372ea5ba5",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "EntityGuid"
+      ]
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "a832e649-3624-4198-a7cf-33b9d8140733",
+      "Name": "CancelReason",
+      "Code": "CancelReason",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "3364c324-c4c4-4ccb-a81c-53653255a022"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "5a6a62ad-257e-4225-b4d2-97b68e4784e8",
+      "Name": "CancelInitiator",
+      "Code": "CancelInit",
+      "EntityGuid": "c612fc41-44a3-428b-a97c-433c333d78e9",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "a832e649-3624-4198-a7cf-33b9d8140733"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "abf5d414-fe1b-42ea-9678-ebed58b933ca",
+      "Name": "BusinessTripApprovalTask",
+      "Code": "BusinessTripAp",
+      "EntityGuid": "377fe917-7bf5-4b5a-871e-c1668d61aa24",
+      "FlatListInStandaloneLookup": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "5a6a62ad-257e-4225-b4d2-97b68e4784e8"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "814863bf-f26e-45a6-ad1c-aa6793fb0785",
+      "Name": "BusinessTrip",
+      "Code": "BusinessTrip",
+      "EntityGuid": "74bd6fe0-0d62-4564-880e-e2b4815a54c9",
+      "FlatListInStandaloneLookup": true,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "abf5d414-fe1b-42ea-9678-ebed58b933ca"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "a48014fa-ff8d-4cdc-9900-6a4c7f28d0f3",
+      "Name": "CommonSubjectPart",
+      "CanBeSearch": false,
+      "Code": "CommonSubjectP",
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "814863bf-f26e-45a6-ad1c-aa6793fb0785"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "f5c9b020-b34f-4cbd-bb12-fe24a3a4d413",
+      "Name": "CommonSubjectPartNoFIO",
+      "CanBeSearch": false,
+      "Code": "CSubjectPNoFIO",
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "a48014fa-ff8d-4cdc-9900-6a4c7f28d0f3"
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "a28a0e4d-6396-4edd-a2d9-d6efa9e07e53",
+      "Name": "MoneyReturnAssignment",
+      "CanBeSearch": false,
+      "Code": "MoneyReturnAss",
+      "EntityGuid": "ebd3b318-c7fb-4560-9242-bdb696a615fe",
+      "FlatListInStandaloneLookup": true,
+      "IsShowedInList": false,
+      "IsVisibility": false,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "PreviousPropertyGuid": "f5c9b020-b34f-4cbd-bb12-fe24a3a4d413"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [
+    "TaskSubjectTemplate",
+    "TaskThemeBase",
+    "EmployeeMoneyBackSubjectTemplate",
+    "AccountantMoneyBackSubjectTemplate",
+    "CancelNotificationSubjectTemplate",
+    "SignOrderSubjectTemplate",
+    "LearnCancelOrderSubjectTemplate",
+    "ReturnTiketsSubjectTemplate",
+    "CommonSubjectPartTemplate",
+    "CommonSubjectPartNoFIOTemplate",
+    "CancelReasonTemplate",
+    "CancelReasonForNoteTemplate"
+  ],
+  "RibbonCardMetadata": {
+    "NameGuid": "7aed2c62-c413-4065-a95a-d7bbdacd590e",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "61be3025-2bc6-4c94-99e3-c0be37becf36",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Scheme": {
+    "NameGuid": "c7ae4ee8-f2a6-4784-8e61-7f7f642dbcd1",
+    "Name": "RouteScheme",
+    "IsAncestorMetadata": true,
+    "VersionsCounter": 1
+  },
+  "Versions": [
+    {
+      "Type": "TaskMetadata",
+      "Number": 1
+    },
+    {
+      "Type": "WorkflowEntityMetadata",
+      "Number": 2
+    },
+    {
+      "Type": "EntityMetadata",
+      "Number": 11
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 2
+    }
+  ]
+}
