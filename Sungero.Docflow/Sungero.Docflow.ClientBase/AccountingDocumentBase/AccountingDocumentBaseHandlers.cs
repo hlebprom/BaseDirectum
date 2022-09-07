@@ -68,7 +68,7 @@ namespace Sungero.Docflow
       if (_obj.IsFormalized == true)
       {
         e.HideAction(_obj.Info.Actions.OpenOriginal);
-        // действие удалено вендором. e.HideAction(_obj.Info.Actions.CreateDocumentFromVersion);
+        e.HideAction(_obj.Info.Actions.CreateDocumentFromVersion);
       }
     }
 

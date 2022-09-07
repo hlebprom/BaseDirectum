@@ -189,7 +189,7 @@ namespace Sungero.RecordManagement.Client
       if (assignment == null)
         return false;
       
-      /*var dialog = Dialogs.CreateTaskDialog(ActionItemExecutionTasks.Resources.StopAdditionalActionItemExecutions,
+      var dialog = Dialogs.CreateTaskDialog(ActionItemExecutionTasks.Resources.StopAdditionalActionItemExecutions,
                                             MessageType.Question);
       
       Action showNotCompletedExecutionSubTasksHandler = () =>
@@ -217,7 +217,7 @@ namespace Sungero.RecordManagement.Client
       }
       
       if (dialogResult == DialogButtons.Cancel)
-        return false;*/
+        return false;
       
       return false;
     }
@@ -231,7 +231,7 @@ namespace Sungero.RecordManagement.Client
     /// False, если была нажата отмена.</returns>
     public virtual bool ShowCompleteParentActionItemConfirmationDialog(IActionItemSupervisorAssignment supervisorAssignment, IActionItemExecutionAssignment parentAssignment)
     {
-      /*var resources = Sungero.RecordManagement.ActionItemSupervisorAssignments.Resources;
+      var resources = Sungero.RecordManagement.ActionItemSupervisorAssignments.Resources;
       var dialog = Dialogs.CreateTaskDialog(resources.CompleteParentAssignmentDialogTitle, MessageType.Question);
       
       Action showParentAssignmentHandler = () =>
@@ -278,7 +278,7 @@ namespace Sungero.RecordManagement.Client
       }
       
       if (dialogResult == DialogButtons.Cancel)
-        return false;*/
+        return false;
       
       return false;
     }
@@ -294,7 +294,7 @@ namespace Sungero.RecordManagement.Client
     public virtual bool ShowConfirmationDialog(string text, string description, string title,
                                                RecordManagement.IActionItemExecutionAssignment parentActionItemExecutionAssignment)
     {
-      /*var dialog = Dialogs.CreateTaskDialog(text, description, MessageType.Question, title);
+      var dialog = Dialogs.CreateTaskDialog(text, description, MessageType.Question, title);
       dialog.Buttons.AddYesNo();
       
       Action showParentAssignmentHandler = () =>
@@ -313,7 +313,7 @@ namespace Sungero.RecordManagement.Client
       
       if (dialogResult == DialogButtons.No)
         return false;
-      */
+      
       return false;
     }
     
